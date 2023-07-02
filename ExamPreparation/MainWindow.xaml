@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExamPreparation"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="830">
+        Title="MainWindow" Height="450" Width="830">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -19,9 +19,20 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="360"/>
-            <RowDefinition Height="70"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-
+        <Button
+                x:Name="ButtonSerialization"
+                Content="Сереализация"
+                Grid.Column="6"
+                Grid.Row="1" Click="ButtonSerialization_Click"
+        />
+        <Button
+                x:Name="ButtonDeSerialization"
+                Content="Десереализация"
+                Grid.Column="7"
+                Grid.Row="1" Click="ButtonDeSerialization_Click"
+        />
         <ListView x:Name="DataView"
                   Grid.Row="0"
                   Grid.Column="0"
@@ -55,27 +66,24 @@
                     <GridViewColumn
                         DisplayMemberBinding="{Binding Path=MathGrade}"
                         Width="150"
-                        TextBlock.TextAlignment="Left">
+                        TextBlock.TextAlignment="Center">
                         Оценка по математика
                     </GridViewColumn>
                     <GridViewColumn
                         DisplayMemberBinding="{Binding Path=InfoGrade}"
                         Width="150"
-                        TextBlock.TextAlignment="Left">
+                        TextBlock.TextAlignment="Center">
                         Оценка по информатике
                     </GridViewColumn>
                     <GridViewColumn
                         DisplayMemberBinding="{Binding Path=PhysicGrade}"
                         Width="150"
-                        TextBlock.TextAlignment="Left">
+                        TextBlock.TextAlignment="Center">
                         Оценка по физике
                     </GridViewColumn>
                 </GridView>
             </ListView.View>
-
-
-
-
+            
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="Background" Value="LightGray"/>

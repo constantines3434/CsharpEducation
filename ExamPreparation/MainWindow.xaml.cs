@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using System.Xml.Serialization;
 
 namespace ExamPreparation
 {
@@ -12,7 +14,7 @@ namespace ExamPreparation
     /// 
     public partial class MainWindow : Window
     {
-        List<StudentData> Students = new List<StudentData>();
+        List<StudentData> StudentsInfo = new List<StudentData>();
         public MainWindow()
         {
             InitializeComponent();
@@ -21,7 +23,7 @@ namespace ExamPreparation
 
         private void LoadListViewData()
         {
-            List<StudentData> people = new List<StudentData>
+            List<StudentData> students = new List<StudentData>
             {
          new StudentData
          {   Id = 1,
@@ -62,14 +64,34 @@ namespace ExamPreparation
                 PhysicGrade = 4
             }
          };
-
-        DataView.ItemsSource = people;
+            StudentsInfo = students;
+        DataView.ItemsSource = StudentsInfo;
 
             //GridView gridView = new GridView();
             //DataView.View = gridView;
 
             //gridView.Columns.Add(new GridViewColumn { Header = "Id", DisplayMemberBinding = new Binding("Id") });
             //gridView.Columns.Add(new GridViewColumn { Header = "Surname", DisplayMemberBinding = new Binding("Surname") });
+        }
+        private void SerializeXML()
+        {
+
+        }
+
+        private void ButtonSerialization_Click(object sender, RoutedEventArgs e)
+        {
+            XmlSerializer xml = new XmlSerializer(typeof(StudentData));
+
+            using (FileStream fs = new FileStream("C:\\VS Projects\\Serialization\\ExamPreparation\\serialize\\Students.xml",
+                FileMode.OpenOrCreate))
+            {
+                StudentData studentData = (StudentData)xml.Deserialize(fs);
+            }
+        }
+
+        private void ButtonDeSerialization_Click(object sender, RoutedEventArgs e)
+        {
+        
         }
     }
 }

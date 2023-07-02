@@ -1,0 +1,15 @@
+C:\VS Projects\Serialization\Observer\bin\Debug\net6.0\Observer.exe
+C:\VS Projects\Serialization\Observer\bin\Debug\net6.0\Observer.deps.json
+C:\VS Projects\Serialization\Observer\bin\Debug\net6.0\Observer.runtimeconfig.json
+C:\VS Projects\Serialization\Observer\bin\Debug\net6.0\Observer.dll
+C:\VS Projects\Serialization\Observer\bin\Debug\net6.0\Observer.pdb
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\Observer.csproj.AssemblyReference.cache
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\Observer.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\Observer.AssemblyInfoInputs.cache
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\Observer.AssemblyInfo.cs
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\Observer.csproj.CoreCompileInputs.cache
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\Observer.dll
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\refint\Observer.dll
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\Observer.pdb
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\Observer.genruntimeconfig.cache
+C:\VS Projects\Serialization\Observer\obj\Debug\net6.0\ref\Observer.dll

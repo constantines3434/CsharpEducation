@@ -1,0 +1,16 @@
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation.csproj.AssemblyReference.cache
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation.csproj.SuggestedBindingRedirects.cache
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\MainWindow.g.cs
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\App.g.cs
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation_MarkupCompile.cache
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation_MarkupCompile.lref
+C:\VS Projects\Serialization\ExamPreparation\bin\Debug\ExamPreparation.exe.config
+C:\VS Projects\Serialization\ExamPreparation\bin\Debug\ExamPreparation.exe
+C:\VS Projects\Serialization\ExamPreparation\bin\Debug\ExamPreparation.pdb
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\MainWindow.baml
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation.g.resources
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation.Properties.Resources.resources
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation.csproj.GenerateResource.cache
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation.csproj.CoreCompileInputs.cache
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation.exe
+C:\VS Projects\Serialization\ExamPreparation\obj\Debug\ExamPreparation.pdb
